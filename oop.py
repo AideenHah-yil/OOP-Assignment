@@ -4,9 +4,11 @@ class Person:
         self.age = age
         self.gender = gender
 
-def introduce(self):
-    print(f"My name is {self.name}. I am {self.age} years old. I am {self.gender}.")
+    def introduce(self):
+       print(f"My name is {self.name}. I am {self.age} years old. I am {self.gender}.")
 
 person1 = Person("John", 30, "male")
 
 person1.introduce()
+
+
