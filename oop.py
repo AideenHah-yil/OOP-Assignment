@@ -1,10 +1,12 @@
 class Person:
     def __init__(self, name, age, gender):
-        self.name = ''
-        self.age = 0
-        self.gender = ''
+        self.name = name
+        self.age = age
+        self.gender = gender
 
 def introduce(self):
     print(f"My name is {self.name}. I am {self.age} years old. I am {self.gender}.")
 
-    Person.introduce()
+person1 = Person("John", 30, "male")
+
+person1.introduce()
